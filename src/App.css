@@ -1,0 +1,64 @@
+.queueContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5vh;
+  font-size: 3vh;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pushpopContainer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5vh;
+  font-size: 2.5vh;
+  font-weight: 600;
+  text-align: center;
+}
+.pushBtn, .popBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(54, 86, 147);
+  color: aliceblue;
+  height: 5vh;
+  min-width: 7vw;
+  border-radius: 1.1vh;
+  cursor: pointer;
+}
+.pushBtn:hover {
+  background-color: rgb(5, 60, 109);
+  color: aliceblue;
+}
+.popBtn:hover {
+background-color: brown;
+color: aliceblue;
+}
+.queueValueContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-left: 25vw;
+  flex-direction: column;
+  margin-top: 5vh;
+  min-height: 40vh;
+  background-color: rgb(179, 199, 235);
+  font-size: 2vh;
+}
+.queueValue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(115, 74, 152);
+  height: 3vh;
+  width: 4vw;
+  margin: .7vh;
+  color: aliceblue;
+  font-weight: 700;
+}
